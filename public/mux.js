@@ -318,7 +318,7 @@ window.Mux = (function () {
                 setTimeout(checkSend,_this.sendRate);
             }
             else {
-                this.isSending = false;
+                _this.isSending = false;
             }
         };
         if(!this.isSending){
