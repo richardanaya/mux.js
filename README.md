@@ -7,7 +7,7 @@ Mux.js is a tool for multiplexing messages across a network.  The main reasons y
 * You might want to send multiple messages in parallel so big messages don't clog up communication
 * Combine small messages into one packet if space is available to reduce packets sent
 
-You can [download it here](https://raw.github.com/richardanaya/mux.js/master/public/mux.js).
+Download: [mux.js](https://raw.github.com/richardanaya/mux.js/master/public/mux.js)
 
 What's going on:
 ----
