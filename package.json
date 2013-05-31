@@ -1,0 +1,10 @@
+{
+	"name":"cleanstack-nodejs",
+	"version":"0.0.1",
+	"dependencies":{
+		"express":"2.5.x"
+	},
+	"scripts":{
+		"start":"server.js"
+	}
+}
