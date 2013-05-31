@@ -3,7 +3,7 @@ Mux.js
 
 Mux.js is a tool for multiplexing messages across a network.  The main reasons you'd want to do this:
 
-* Your communication tech might be only able to send so many bytes per packet
+* Your communication tech might not be able to send the size of your data in a single packet
 * You might want to send multiple messages in parallel so big messages don't clog up communication
 * Combine small messages into one packet if space is available to reduce packets sent
 
@@ -37,7 +37,7 @@ mux.send("123");
 //SERVER
 
 var mux = new Mux({maxSize: 1000});  
-mux.on("messageRecieved", function(message){ 
+mux.on("messageReceived", function(message){ 
   //do something when a complete message is received!
   console.log(message);
 });
